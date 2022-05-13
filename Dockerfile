@@ -1,4 +1,4 @@
-FROM python:3.9.0
+FROM python:3.9.12
 #RUN echo "hello mani!!!!" > /usr/share/nginx/html/index.html
 WORKDIR /
 COPY ./req.txt ./req.txt
