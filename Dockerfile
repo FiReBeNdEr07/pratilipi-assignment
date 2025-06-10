@@ -1,4 +1,4 @@
-FROM python:3.13.2
+FROM python:3.13.4
 #RUN echo "hello mani!!!!" > /usr/share/nginx/html/index.html
 WORKDIR /
 COPY ./req.txt ./req.txt
